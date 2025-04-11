@@ -17,4 +17,3 @@ def test_low_tide():
 def test_mid_tide():
     assert get_tide_status(1) == "Mid Tide"
     assert get_tide_status(7) == "Mid Tide"
-    
