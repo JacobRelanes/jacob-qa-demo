@@ -1,5 +1,6 @@
 from app import get_tide_status
 
+
 def test_high_tide():
     assert get_tide_status(0) == "High Tide"
     assert get_tide_status(6) == "High Tide"
