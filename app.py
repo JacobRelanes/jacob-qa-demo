@@ -5,4 +5,3 @@ def get_tide_status(hour):
         return "Low Tide"
     else:
         return "Mid Tide"
-    
